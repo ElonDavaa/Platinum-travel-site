@@ -1,0 +1,33 @@
+.row {
+    &__b-margin-until-medium {
+        margin-bottom: 1rem;
+    }
+    @mixin atMedium {
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+        height: 100%;
+
+        &__medium-4 {
+            width: 400px;
+            padding-right: 65px;
+        }
+
+        &__medium-4--larger {
+            width: 500px;
+        }
+    
+        &__medium-8 {
+            width: 800px;
+        }  
+
+        &__medium-8--smaller {
+            width: 700px;
+        }   
+        
+        &__b-margin-until-medium {
+            margin-bottom: 0;
+        }
+    }
+
+}
