@@ -13,5 +13,22 @@ img {
 }
 
 a {
-    color: $mainOrange;
+    color: $mainOrange; 
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    background-color: $mainBlue;
+    padding: 15px 28px;
+
+    @mixin atMedium {
+        left: auto;
+        transform: translateX(0);
+        padding: 25px 35px;
+    }
+    
 }
