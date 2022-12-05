@@ -1,7 +1,7 @@
 import throttle  from "lodash/throttle";
 import debounce  from "lodash/debounce";
 
-class revealOnScrool {
+class RevealOnScrool {
     constructor(els, revealPoint) {
         this.itemsToReveal= els;
         this.revealPoint = revealPoint;
@@ -50,4 +50,4 @@ class revealOnScrool {
     }
 }
 
-export default revealOnScrool; 
+export default RevealOnScrool; 

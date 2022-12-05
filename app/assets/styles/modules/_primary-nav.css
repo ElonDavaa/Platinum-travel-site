@@ -34,6 +34,10 @@
 
         @mixin atLarge {
             margin-right: 0;
+
+        &.is-current-link {
+             color: #fabb69;
+            }
         }
     }
 

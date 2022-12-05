@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "roboto", sans-serif;
     color: #333;
@@ -21,6 +25,8 @@ a {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+    transform-origin: 50% 0;
+    transition: transform 0.3s ease-out;
     width: auto;
     background-color: $mainBlue;
     padding: 15px 28px;
@@ -29,6 +35,10 @@ a {
         left: auto;
         transform: translateX(0);
         padding: 25px 35px;
+
+    .site-header--dark & {
+        transform: scale(0.72);
+    }
     }
     
 }

@@ -34,9 +34,9 @@
             <div class="site-header__item-nav">
               <nav class="primary-nav">
                 <ul>
-                  <li><a href="#our-beginning">Эхлэл</a></li>
-                  <li><a href="#features">Онцлогууд</a></li>
-                  <li><a href="#testimonials">Талархал</a></li>
+                  <li><a href="#our-beginning" id="our-beginning-link">Эхлэл</a></li>
+                  <li><a href="#features" id="features-link">Онцлогууд</a></li>
+                  <li><a href="#testimonials" id="testimonials-link">Талархал</a></li>
                 </ul>
               </nav>
             </div>      
@@ -68,7 +68,7 @@
       </div>
     </div>
 
-    <div id="our-beginning" class="page-section">
+    <div id="our-beginning" class="page-section" data-matching-link="#our-beginning-link">
       <div class="wrapper">
         <h2 class="headline headline--centered headline--light headline--b-margin-small">Бид анх <strong >өөрсдийнхөө аяллаар</strong>  эхлэж байлаа.</h2>
         <h3 class="headline headline--centered headline--orange headline--small headline--narrow headline--light headline--b-margin-large">Одоо бид <strong>бусдын аяллыг</strong>  дурсамжтай болгохыг зорьж байна.</h3>
@@ -117,7 +117,7 @@
       </div>
     </div>
 
-    <div id="features" class="page-section page-section--blue generic-content-container">
+    <div id="features" class="page-section page-section--blue generic-content-container" data-matching-link="#features-link">
       <div class="wrapper">  
           <h2 class="section-title"> <img class="section-title__icon" src="assets/images/icons/star.svg" />Бидний <strong>онцлогууд</strong> </h2>
           <div class="row">
@@ -166,7 +166,7 @@
       </div>
     </div>
 
-    <div id="testimonials" class=" page-section--testimonials">
+    <div id="testimonials" class=" page-section--testimonials" data-matching-link="#testimonials-link">
       <div class="wrapper wrapper--no-padding-until-medium">
         <h2 class="section-title section-title--blue"><img class="section-title__icon" src="assets/images/icons/comment.svg" />Хэрэглэгчдийн <strong>талархлууд</strong></h2>
 
@@ -233,7 +233,7 @@
         </p>
       </div>
     </footer>
-    <!-- "modal" хичээлийг үзтэлээ энэ тайлбар бүхий хэсгийг битгий нээгээрэй
+    
   <div class="modal">
     <div class="modal__inner">
       <h2 class="section-title section-title--blue section-title--less-margin"><img src="assets/images/icons/mail.svg" class="section-title__icon"> Хамт <strong>Аялах</strong></h2>
@@ -250,7 +250,7 @@
     </div>
     <div class="modal__close">X</div>
   </div>
-  This is the end of the "modal" reference HTML -->
+
   <script src="bundled.js"></script>
  </body>
 </html>
