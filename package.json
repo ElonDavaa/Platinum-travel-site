@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,7 +25,11 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
+    "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.7.2",
+    "fs-extra": "^11.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.2",
     "postcss-hexrgba": "^2.1.0",
     "postcss-import": "^15.0.0",
     "postcss-loader": "^7.0.1",

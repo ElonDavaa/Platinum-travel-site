@@ -3,7 +3,6 @@ import MobileMenu from "./modules/MobileMenu";
 import RevealOnScrool from "./modules/RevealOnScroll";
 import StickyHeader from "./modules/StickyHeader";
 
-
 let stickyHeader = new StickyHeader();
 new RevealOnScrool(document.querySelectorAll(".feature-item"), 75);
 new RevealOnScrool(document.querySelectorAll(".testimonial"), 50);
